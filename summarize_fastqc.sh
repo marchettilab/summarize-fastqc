@@ -14,9 +14,6 @@
 # load modules
 module load imagemagick
 
-# source subroutines needed for this script
-source summarize_fastqc_subroutines.sh
-
 # ensure that indir and glob is unset
 unset indir
 unset glob
